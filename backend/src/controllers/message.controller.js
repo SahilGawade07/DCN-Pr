@@ -1,5 +1,5 @@
 import User from "../models/user.models.js";
-import Message from "../models/message.model.js";
+import Message from "../models/message.models.js";
 import router from "../routes/auth.routes.js";
 import { protectRoute } from "../middlewares/auth.middlewares.js";
 import cloudinary from "../lib/cloudinary.js";
